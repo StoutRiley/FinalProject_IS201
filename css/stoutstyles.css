@@ -38,6 +38,9 @@ a:visited {
     color: black;
     /* text-decoration: underline; */
 }
+.white {
+    color: white;
+}
 ul {
     font-weight: lighter;
     font-size: 9x;
