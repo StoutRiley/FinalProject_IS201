@@ -1,0 +1,95 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15x;
+    color: rgb(59, 46, 33);
+    background-color: rgb(240, 240, 215)
+}
+h1 {
+    font-weight: bold;
+    font-size: 18x;
+    text-decoration: underline;
+    text-align: center;
+}
+h3 {
+    /* font-weight: lighter; */
+    font-size: 16x;
+    color:darkslategrey;
+    text-decoration: underline;
+}
+a {
+    color: rgb(0, 128, 122);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: blue;
+}
+.subheader {
+    float: right;
+}
+.ListHeading {
+    font-size: 24x;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    /* text-decoration: underline; */
+}
+ul {
+    font-weight: lighter;
+    font-size: 9x;
+    text-decoration:none;
+    
+}
+
+li {
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(121, 73, 10);
+    font-weight: normal;
+}
+
+/* Layout Styles */
+
+.common {
+    /* background-color: #cccccc; */
+    border: 2px solid rgb(230, 15, 15);
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+.mainbody {
+    top: 114px;
+    left: 64px;
+    right: 184px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 170px;
+    bottom: 39px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
